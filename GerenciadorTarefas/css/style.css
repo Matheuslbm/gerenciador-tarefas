@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#nova-tarefa {
+    width: calc(100% - 110px);
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    background-color: #333;
+}
+
+#lista-tarefas li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#lista-tarefas li button {
+    margin-left: 10px;
+}
+
+button {
+    margin-top: 15px;
+    border-radius: 4px;
+    margin-left: 8px;
+}
